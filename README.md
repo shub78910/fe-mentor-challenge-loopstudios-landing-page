@@ -1,5 +1,7 @@
 # Frontend Mentor - Loopstudios landing page
 
+Live website: https://shub78910-demo-landing-page.netlify.app/
+
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
