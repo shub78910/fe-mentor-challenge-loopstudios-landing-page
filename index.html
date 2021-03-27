@@ -1,173 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Virtual-spacing</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-
   <header>
-    <div class="top_head">
-
-      <div class="logo">
-        <img src="images/logo.svg">
+      <div class="menu top-nav">
+        <div class="top-flex">
+          <img class="logo" src="images/logo.svg" alt="logo">
+          <button type="button" class="close"></button>
+        </div>
+        <nav>
+          <ul>       
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <div class="mob_nav">
-        <li class="xbtn">X</li>
-        <li>About</li>
-        <li>Careers</li>
-        <li>Events</li>
-        <li>Products</li>
-        <li>Support</li>
+      <div class="top-flex top-flex-mobile">
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <button type="button" class="burger"></button>
       </div>
-
-      <div class="ham">
-        <img src="images/icon-hamburger.svg">
-      </div>
-
-
-    </div>
-
-
-    <div class="banner">
-      <p>
-        Immersive experiences that deliver
-      </p>
-    </div>
+    <h1>Immersive experiences that deliver</h1>  
   </header>
-
-  <section>
-    <img class="image imagedktp" src="images/mobile/image-interactive.jpg">
-    <div>
-      <h6 class="leader">The leader in interactive VR</h6>
-      <p>
-        Founded in 2011, Loopstudios has been producing world-class virtual reality
-        projects for some of the best companies around the globe. Our award-winning
-        creations have transformed businesses through digital experiences that bind
-        to their brand.
-      </p>
+  
+  <section class="sec1">
+    <img class="interactive" src="images/mobile/image-interactive.jpg" alt="un homme">
+    <div class = "sec1-grid">
+      <h2>The leader in interactive VR</h2>
+      <p class="para">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+      projects for some of the best companies around the globe. Our award-winning 
+      creations have transformed businesses through digital experiences that bind 
+      to their brand.</p>
     </div>
   </section>
 
-  <div style="text-align: center;" >
-    <h6 style="margin-bottom: 2rem;" class="leader"> Our creations</h6>
-    
-    <div class="multiple_images">
-      <div class="image earth">
-        <h5>DEEP EARTH</h5>
-      </div>
-      <div class="image night">
-        <h5>NIGHT ARCADE</h5>
-      </div>
-      <div class="image soccer">
-        <h5>SOCCER TEAM VR</h5>
-      </div>
-      <div class="image grid">
-        <h5>THE GRID</h5>
-      </div>
-      <div class="image vr">
-        <h5>FROM UP ABOVE VR</h5>
-      </div>
-      <div class="image borealis">
-        <h5>POCKET BOREALIS</h5>
-      </div>
-      <div class="image curiosity">
-        <h5>THE CURIOSITY</h5>
-      </div>
-      <div class="image fish">
-        <h5>MAKE IT FISHEYE</h5>
-      </div>
-
+  <section class="sec2">
+    <div class="sec2-nav">
+      <h2>Our creations</h2>
+      <button class="btn-see" type="button">See all</button>
     </div>
-    <button>SEE ALL</button>
-  </div>
+    <div class="grp-img">
+      <div class="images">Deep <br> earth</div>
+      <div class="images">Night<br> arcade</div>
+      <div class="images">Soccer<br> team VR</div>
+      <div class="images">The<br> grid</div>
+      <div class="images">From up <br>above VR</div>
+      <div class="images">Pocket<br> borealis</div>
+      <div class="images">The <br>curiosity</div>
+      <div class="images">Make it<br> fisheye</div>
+    </div>
+    <button class="btn-see" type="button">See all</button>
+  </section>
 
   <footer>
-    <img style="margin: 1.5rem 0.1rem;" src="images/logo.svg">
-    <li>About</li>
-    <li>Careers</li>
-    <li>Events</li>
-    <li>Products</li>
-    <li>Support</li>
-
-    <div style="margin-bottom: -2rem;" class="social">
-      <img class="social_icons" src="images/icon-facebook.svg">
-      <img class="social_icons" src="images/icon-twitter.svg">
-      <img class="social_icons" src="images/icon-pinterest.svg">
-      <img class="social_icons" src="images/icon-instagram.svg">
-      <p> © 2021 Loopstudios. All rights reserved.</p>
-    </div>
+    <nav class="bottom-nav">
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+      
+    </nav>
+    <nav class="social">
+      <img src="images/icon-facebook.svg" alt="facebook">
+      <img src="images/icon-twitter.svg" alt="twitter">
+      <img src="images/icon-pinterest.svg" alt="pinterest">
+      <img src="images/icon-instagram.svg" alt="instagram">
+    </nav>
+    <div class="copyright">© 2021 Allan Guillotin. All rights reserved.</div> 
   </footer>
 
-
-  <!-- About
-  Careers
-  Events
-  Products
-  Support
-
-  Immersive experiences that deliver
-
-  The leader in interactive VR
-
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved. -->
-</body>
 <script>
-  var nav = document.querySelector(".mob_nav")
-  var ham = document.querySelector(".ham")
-  var xbtn = document.querySelector(".xbtn")
+  let img = document.querySelectorAll('.images');
+  
 
-  ham.addEventListener("click", shownav)
-  xbtn.addEventListener("click", removenav)
+  let menu = document.querySelector('.menu');
+  let burger = document.querySelector('.burger');
+  let croix = document.querySelector('.close');
+  let body = document.querySelector('body');
 
-  let flag = true;
-
-  function shownav() {
-    if (flag) {
-      nav.style.display = "block"
-      flag = false
+  burger.onclick = open; 
+  croix.onclick = open; 
+  
+  function open() {
+    menu.classList.toggle('open');
+    menu.style.transition = '.5s';
+    if(menu.className.indexOf('open') === -1){
+    body.removeAttribute('style');
+    }else {
+    body.style.maxHeight = '100vh';
+    body.style.overflow = 'hidden';
     }
   }
+  window.onresize = function() {
+  menu.style.transition = '0s';
+}
 
-  function removenav() {
-    if (!flag) {
-      nav.style.display = "none"
-      flag = true
+
+
+  let mediaQuery = window.matchMedia('(min-width:975px)');
+  mediaQuery.addListener(change);
+  change(mediaQuery);
+
+  function change(){
+    if (mediaQuery.matches === true) {
+      for (let i=0 ; i < img.length ; i++){
+    img[i].style.background= 'url(images/desktop/image'+ i + '.jpg) center center / cover no-repeat';
+  }
+  }else {
+    for (let i=0 ; i < img.length ; i++){
+    img[i].style.background= 'url(images/mobile/image'+ i + '.jpg) top center / cover no-repeat';
     }
   }
+}
 </script>
-
-
+</body>
 </html>
